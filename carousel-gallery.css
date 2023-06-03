@@ -87,3 +87,8 @@ div#carousel ~ span {
 div#carousel ~ span:hover { 
     color: #888; cursor: pointer; 
 }
+
+.direction-ind {
+    font-size: 50px;
+    transform: scale(3, 3);
+}
