@@ -7,6 +7,17 @@
   box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://physicsworld.com/wp-content/uploads/2023/04/2023-04-CP-quantum-tech-concept-1194425420-iStock_Anadmist.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: grayscale(10%);
+}
+
 html {
   background: #000;
   background-size: cover;
@@ -79,7 +90,7 @@ h1:after {
   height: 240px;
   margin: 150px auto 0;
   position: relative;
-  z-index: 4;
+  z-index: 12;
   width: 600px;
   transition: 1s all;
 }
@@ -158,6 +169,7 @@ h1:after {
 
 ::placeholder {
     font-size: 17px;
+    font-weight: bold;
 }
 
 .quantum-systems-login button:active {
@@ -181,7 +193,7 @@ h1:after {
   margin-left: -250px;
   overflow: hidden;
   opacity: 0.4;
-  z-index: -3;
+  z-index: 7;
 }
 
 #inner-cirlce1 {
@@ -225,7 +237,7 @@ h1:after {
   top: 310px;
   width: 100%;
   transform: perspective(600px) rotateX(60deg) scale(1.4);
-  z-index: -3;
+  z-index: 7;
 }
 
 @keyframes logo-entry {
@@ -244,11 +256,26 @@ h1:after {
   0% {
     opacity: 0;
   }
-  20% {
-    opacity: 0;
+  15% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  45% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.75;
   }
   100% {
-    opacity: 0.4;
+    opacity: 0.9;
   }
 }
 
@@ -305,7 +332,7 @@ h1:after {
 @keyframes text-glow {
   0% {
     color: #00a4a2;
-    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+    text-shadow: 0 0 10px #f8f4f4, 0 0 20px #f8f5f5, 0 0 30px #f7f4f4, 0 0 40px #f1e9e9, 0 0 50px #f8f4f4, 0 0 60px #eeeaea, 0 0 70px #f5eeee;
   }
   100% {
     color: #00fffc;
